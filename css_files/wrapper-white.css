@@ -1,0 +1,35 @@
+.wrapper-white {
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 0;
+}
+.combine-center-right {
+  display: flex;
+  justify-content: center;
+  width: 56%;
+}
+.combine-two-left-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.combine-two-right-news-buzz {
+  width: 33.33%;
+}
+.news-buzz-combine {
+  display: none;
+}
+.combine-ad-section-world {
+  display: none;
+}
+.combine-politics-science-health-section {
+  display: none;
+}
+.combine-us-style {
+  display: none;
+}
+.combine-travel-cnn-podcasts-section {
+  display: none;
+}

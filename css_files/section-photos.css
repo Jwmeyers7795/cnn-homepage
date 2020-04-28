@@ -1,0 +1,38 @@
+.photos-section {
+  display: flex;
+  flex-direction: flex-start;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.photos-section > div {
+  width: 100%;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+/* .photos-section > div > a:first-child {
+  max-width: 285px;
+  max-height: 160px;
+} */
+.photos-1-image {
+  max-width: 285px;
+  max-height: 160px;
+}
+.photos-2-image {
+  max-width: 285px;
+  max-height: 160px;
+}
+.photos-3-image {
+  max-width: 285px;
+  max-height: 160px;
+}
+.photos-4-image {
+  max-width: 285px;
+  max-height: 160px;
+}
+.photos-1-caption, .photos-2-caption, .photos-3-caption, .photos-4-caption {
+  font-size: 19px;
+}

@@ -1,0 +1,24 @@
+.cnn-underscored-section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: -50px;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.cnn-underscored-left {
+  width: 57%;
+  margin-right: 20px;
+}
+.cnn-underscored-left-image-caption {
+  position: relative;
+  top: -82px;
+  color: white;
+  background: rgba(248, 240, 243, 0.9);
+  padding: 4px;
+  font-size: 31px;
+  color: black;
+}

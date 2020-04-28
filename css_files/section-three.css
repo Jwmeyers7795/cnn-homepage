@@ -1,0 +1,56 @@
+.section-three-a, .section-three-b, .section-three-c, .section-three-d {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.sports-header, .opinion-header, .content-by-title, .world-header, .us-header, .style-header, .entertainment-header, .tech-header, .politics-header, .science-health-header, .travel-header, .cnn-podcasts-header, .represented-header, .risk-takers-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  padding: 10px 0 10px 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.sports-header:hover, .opinion-header:hover, .world-header:hover, .us-header:hover, .style-header:hover, .entertainment-header:hover, .tech-header:hover, .politics-header:hover, .science-health-header:hover, .travel-header:hover, .cnn-podcasts-header:hover {
+  background-color: #E6E6E6;
+}
+.sports-section > a, .opinion-section > a, .world-section > a, .us-section > a, .style-section > a, .entertainment-section > a, .tech-section > a, .politics-section > a, .science-health-section > a, .travel-section > a, .cnn-podcasts-section > a {
+  text-decoration: none;
+  color: black;
+}
+.sports-title, .opinion-title, .content-by-title, .world-title, .us-title, .style-title, .entertainment-title, .tech-title, .politics-title, .science-health-title, .travel-title, .cnn-podcasts-title, .represented-title, .risk-takers-title {
+  margin-top: 5px;
+  font-weight: 500;
+}
+.sports-title-caption, .opinion-title-caption, .world-title-caption, .us-title-caption, .style-title-caption, .entertainment-title-caption, .tech-title-caption, .politics-title-caption, .science-health-title-caption, .travel-title-caption, .cnn-podcasts-title-caption, .represented-title-caption, .risk-takers-title-caption {
+  font-size: 20px;
+  margin: 5px 0 5px 0;
+}
+.sports-section, .ad-section, .world-section, .style-section, .entertainment-section, .politics-section, .science-health-section {
+  width: 33.33%;
+}
+.opinion-section, .us-section, .tech-section, .travel-section {
+  width: 33.33%;
+  margin: 0 20px;
+}
+.ad-section {
+  margin: 0 auto;
+  text-align: center;
+}
+.ad-section > ul > li {
+  text-align: left;
+}
+.ad-image {
+  width: 85%;
+}
+.right-arrow {
+  margin-right: 10px;
+  font-size: 24px;
+  /* background-color: #E6E6E6; */
+}

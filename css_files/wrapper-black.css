@@ -1,0 +1,176 @@
+.wrapper-black {
+  width: 100%;
+  background-color: #0C0C0C;
+  position: relative;
+  top: 0;
+  z-index: 300;
+}
+.search-index-section {
+  max-width: 88%;
+  margin: 0 auto;
+  background-color: #0C0C0C;
+  padding-bottom: 50px;
+  width: 98%;
+}
+.search-index-section-border-top {
+  border-top: 1px solid #4D4D4D;
+}
+.search-form {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.search-bar {
+  width: 100%;
+  height: 40px;
+}
+.index {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: #E6E6E6;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.index-US > a:hover, .index-world > a:hover, .index-politics > a:hover, .index-business > a:hover, .index-opinion > a:hover, .index-health > a:hover, .index-entertainment > a:hover, .index-tech > a:hover, .index-style > a:hover, .index-travel > a:hover,
+ .index-sports > a:hover, .index-videos > a:hover, .index-coupons > a:hover, .index-more > a:hover {
+  text-decoration: underline;
+  color: #E6E6E6;
+}
+.index-US > div > a:hover, .index-world > div > a:hover, .index-politics > div > a:hover, .index-business > div > a:hover, .index-opinion > div > a:hover, .index-health > div > a:hover, .index-entertainment > div > a:hover,
+ .index-tech > div > a:hover, .index-style > div > a:hover, .index-travel > div > a:hover, .index-sports > div > a:hover, .index-videos > div > a:hover, .index-coupons > div > a:hover, .index-more > div > a:hover {
+  text-decoration: underline;
+  color: #E6E6E6;
+}
+.index > div {
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+.index > div > a > div {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.social-media-links-section {
+  border-bottom: 1px solid #4D4D4D;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  margin-top: 5px;
+  color: #E6E6E6;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media-links {
+  display: flex;
+  justify-content: center;
+}
+.social-media-links > a {
+  margin-right: 5px;
+  opacity: 0.9;
+}
+.social-media-links > a:hover {
+  opacity: 1;
+  color: inherit;
+}
+.follow-cnn {
+  letter-spacing: 2px;
+  height: 17px;
+  padding-right: 25px;
+  border-right: 1px solid #E6E6E6;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.fa-facebook, .fa-twitter, .fa-instagram {
+  margin: 0 15px 0 15px;
+  opacity: 0.9;
+}
+.fa-facebook:hover,  .fa-twitter:hover, .fa-instagram:hover {
+  opacity: 1;
+  color: inherit;
+}
+.social-media-links-section-cnn-logo {
+  background-color: #CE3B28;
+  width: 40px;
+  height: 40px;
+  padding-left: 3px;
+  padding-top: 11px;
+  margin-top: -5px;
+  font-size: 15px;
+  font-weight: 900;
+  /* margin-right: 10px; */
+}
+
+
+/* .logo-cnn {
+  margin-right: 10px;
+  background-color: #CE3B28;
+  width: 40px;
+  height: 40px;
+  padding-left: 3px;
+  padding-top: 11px;
+  font-size: 15px;
+  font-weight: 900;
+} */
+
+
+.social-media-links-section-cnn-logo:hover {
+  color: inherit;
+}
+.index-US div:not(:first-child), .index-US div:not(:first-child), .index-world div:not(:first-child), .index-politics div:not(:first-child), .index-business div:not(:first-child), .index-opinion div:not(:first-child),
+ .index-health div:not(:first-child), .index-entertainment div:not(:first-child), .index-tech div:not(:first-child), .index-style div:not(:first-child), .index-travel div:not(:first-child),
+  .index-sports div:not(:first-child), .index-videos div:not(:first-child), .index-coupons div:not(:first-child), .index-more div:not(:first-child) {
+  margin-bottom: 8px;
+}
+.social-media-links-section-cnn-logo-hide {
+  background-color: #0C0C0C;
+  color: #0C0C0C;
+}
+.social-media-links-section-cnn-logo-hide:hover {
+  background-color: #0C0C0C;
+  color: #0C0C0C;
+  cursor: default;
+}
+.footer-section-a {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #E6E6E6;
+  padding: 40px 0 40px 0;
+  line-height: 25px;
+  margin: 0 auto;
+}
+.footer-section-a > a {
+  margin-right: 15px;
+}
+.footer-section-a > a:hover {
+  text-decoration: underline;
+  color: #E6E6E6;
+}
+.footer-section-b {
+  font-size: 12px;
+  color: #E6E6E6;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.footer-section-c {
+  font-size: 12px;
+  color: #E6E6E6;
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-2-b {
+  margin: 0 10px;
+}
+.footer-2-b:hover {
+  text-decoration: underline;
+  color: #E6E6E6;
+}
+.abc {
+  display: none;
+}

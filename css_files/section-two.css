@@ -1,0 +1,151 @@
+.section-two-top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.two-left {
+  width: 50%;
+}
+.two-left-picture {
+  margin-bottom: 5px;
+}
+.two-left-headline {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.two-center {
+  width: 50%;
+  margin: 0 20px;
+}
+.two-center-picture {
+  margin-bottom: 5px;
+}
+.two-center-headline {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/* .two-right {
+  width: 33.33%;
+} */
+.two-right-picture {
+  margin-bottom: 5px;
+}
+.two-right-ad-1 {
+  margin-bottom: 10px;
+}
+.ad-label {
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+}
+.two-right-ad-2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 0 30px;
+}
+.section-two-bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.news-buzz {
+  width: 33.33%;
+}
+.news-buzz-title {
+  font-weight: 600;
+  background-color: #F2F2F2;
+  padding: 10px 0 10px 5px;
+}
+.check-these {
+  width: 33.33%;
+  margin: 0 20px;
+}
+.check-these-title {
+  font-weight: 600;
+  background-color: #F2F2F2;
+  padding: 10px 0 10px 5px;
+}
+.check-these-top {
+  display: flex;
+  justify-content: center;
+}
+.check-these-top-left {
+  margin: 5px 5px 20px 0;
+  font-size: 15px;
+}
+.check-these-top-left-caption {
+  margin-top: 5px;
+}
+.check-these-top-right {
+  margin: 5px 0 20px 5px;
+  font-size: 15px;
+}
+.check-these-top-right-caption {
+  margin-top: 5px;
+}
+.check-these-bottom {
+  display: flex;
+  justify-content: center;
+}
+.check-these-bottom-left {
+  margin: 5px 5px 20px 0;
+  font-size: 15px;
+}
+.check-these-bottom-left-caption {
+  margin-top: 5px;
+}
+.check-these-bottom-right {
+  margin: 5px 0 20px 5px;
+  font-size: 15px;
+}
+.check-these-bottom-right-caption {
+  margin-top: 5px;
+}
+.cnn-biz {
+  width: 33.33%;
+}
+.cnn-biz-title {
+  font-weight: 600;
+  background-color: #F2F2F2;
+  padding: 10px 0 10px 5px;
+}
+.cnn-biz-stocks {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+.cnn-biz-stocks-labels > div {
+  margin-top: 20px;
+}
+.cnn-biz-stocks-totals {
+  margin: 0 60px 0 60px;
+}
+.cnn-biz-stocks-totals > div {
+  margin-top: 20px;
+}
+.cnn-biz-stocks-plus-minus > div {
+  margin-top: 20px;
+}
+.section-two-bottom-ad {
+  width: 55%;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+}

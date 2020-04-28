@@ -1,0 +1,35 @@
+.more-from-cnn-section {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.more-from-cnn-section > div {
+  margin-right: 20px;
+  width: 33%;
+}
+.represented-header:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+.risk-takers-header:hover {
+  background-color: #E6E6E6;
+  color: black;
+}
+.represented-sub-a, .represented-sub-b, .risk-takers-sub-a, .risk-takers-sub-b {
+  display: flex;
+  flex-direction: flex-start;
+  margin-top: 10px;
+}
+.represented-sub-a-image, .represented-sub-b-image, .risk-takers-sub-a-image, .risk-takers-sub-b-image {
+  width: 90px;
+}
+.represented-sub-a-caption, .represented-sub-b-caption, .risk-takers-sub-a-caption, .risk-takers-sub-b-caption {
+  border-top: 1px solid #D9D9D9;
+  padding: 5px 0 0 10px;
+  font-size: 15px;
+}

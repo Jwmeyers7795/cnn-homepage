@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+  .divider-6 {
+    position: relative;
+    top: -152px;
+  }
+  .cnn-underscored-section {
+    position: relative;
+    top: -172px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cnn-underscored-left {
+    width: 100%;
+  }
+  .cnn-underscored-section > .sub-headlines {
+    position: relative;
+    top: -72px;
+    width: 100%;
+  }
+  .cnn-underscored-section > .sub-headlines > li {
+    font-size: 22px;
+  }
+  .wrapper-grey {
+    position: relative;
+    top: -232px;
+  }
+  .in-case-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .in-case-left {
+    width: 100%;
+  }
+  .in-case-section > .sub-headlines-black {
+    width: 100%;
+  }
+  .in-case-section > .sub-headlines-black > li {
+    font-size: 22px;
+  }
+  .search-form {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+}

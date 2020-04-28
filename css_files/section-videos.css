@@ -1,0 +1,58 @@
+.video-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.video-left {
+  width: 50%;
+  margin-right: 20px;
+}
+.video-right {
+  width: 50%;
+}
+.video-big-caption {
+  background-color: #E6E6E6;
+  text-align: center;
+  width: 88%;
+  margin: 0 auto;
+  padding: 10px 20px 15px 20px;
+  font-size: 20px;
+  position: relative;
+  top: -30px;
+}
+.play-icon {
+  margin-bottom: 2px;
+}
+.video-right-one, .video-right-two, .video-right-three, .video-right-four {
+  display: flex;
+  justify-content: center;
+}
+.video-right-one > div, .video-right-two > div, .video-right-three > div, .video-right-four > div {
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: -15px;
+}
+.play-and-length {
+  position: relative;
+  top: -35px;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  width: 25%;
+  padding: 4px;
+  cursor: pointer;
+}
+.video-length {
+  margin-top: 3px;
+  margin-left: 4px;
+}
+.video-right-one-a-caption, .video-right-one-b-caption, .video-right-two-a-caption, .video-right-two-b-caption, .video-right-three-a-caption, .video-right-three-b-caption, .video-right-four-a-caption, .video-right-four-b-caption {
+  position: relative;
+  top: -25px;
+}
