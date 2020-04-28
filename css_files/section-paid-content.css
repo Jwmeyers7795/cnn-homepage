@@ -9,10 +9,10 @@
   max-width: 1110px;
   margin: 0 auto;
 }
-.paid-content-section > a {
+.paid-content-section > figure {
   width: 100%;
 }
-.paid-content-section > a:not(:last-child) {
+.paid-content-section > figure:not(:last-child) {
   margin-right: 25px;
 }
 .paid-content-1-caption, .paid-content-2-caption, .paid-content-3-caption, .paid-content-4-caption {

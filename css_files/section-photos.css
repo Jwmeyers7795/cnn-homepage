@@ -8,7 +8,7 @@
   max-width: 1110px;
   margin: 0 auto;
 }
-.photos-section > div {
+.photos-section > figure {
   width: 100%;
   margin-right: 30px;
   margin-bottom: 10px;

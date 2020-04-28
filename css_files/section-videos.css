@@ -32,7 +32,7 @@
   display: flex;
   justify-content: center;
 }
-.video-right-one > div, .video-right-two > div, .video-right-three > div, .video-right-four > div {
+.video-right-one > figure, .video-right-two > figure, .video-right-three > figure, .video-right-four > figure {
   width: 100%;
   margin-right: 10px;
   margin-bottom: -15px;

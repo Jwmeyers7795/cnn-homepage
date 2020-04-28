@@ -9,7 +9,6 @@
   margin: 0 auto;
   padding-top: 25px;
 }
-
 .top-ad {
   width: 980px;
   height: 250px;
@@ -17,7 +16,6 @@
   display: flex;
   justify-content: center;
 }
-
 .fixed-header {
   margin-top: 300px;
   position: sticky;
@@ -33,27 +31,22 @@
   font-weight: 100;
   font-size: 13.5px;
 }
-
 .fixed-header-none {
   margin-top: 300px;
 }
-
 .fixed-header-left {
   display: flex;
   justify-content: space-between;
 }
-
 .fixed-header-left > a:not(:first-child) {
   opacity: 0.9;
   margin-right: 10px;
 }
-
 .fixed-header-left > a:hover {
   text-decoration: none;
   color: inherit;
   opacity: 1;
 }
-
 .logo-cnn {
   margin-right: 10px;
   background-color: #CE3B28;
@@ -64,32 +57,26 @@
   font-size: 15px;
   font-weight: 900;
 }
-
 .left-header {
   margin-right: 10px;
   padding: 12px 0 12px 0;
 }
-
 .fixed-header-right {
   display: flex;
   justify-content: space-between;
 }
-
 .fixed-header-right > a {
   opacity: 0.9;
 }
-
 .fixed-header-right > a:hover {
   text-decoration: none;
   color: inherit;
   opacity: 1;
 }
-
 .fixed-header-right-live-tv {
   display: flex;
   justify-content: center;
 }
-
 .live-tv-red-dot {
   height: 5px;
   width: 5px;
@@ -99,23 +86,27 @@
   margin-top: 18px;
   margin-right: 10px;
 }
-
 .live-tv-words {
   margin-right: 10px;
   padding: 12px 0 12px 0;
 }
-
 .edition-part {
   display: flex;
-  flex-direction: column;
+  display: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   opacity: 0.9;
-
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 .edition-part:hover {
   cursor: pointer;
   opacity: 1
 }
-
 .edition-dropdown-container {
   display: none;
   position: absolute;
@@ -127,93 +118,86 @@
   border-radius: 4px;
   z-index: 600;
 }
-
-.edition-dropdown-container > div {
+.edition-dropdown-container > option {
   margin-top: 10px;
   font-size: 12px;
   padding: 5px 25px 3px 20px;
   font-weight: 500;
-
 }
-
-.edition-dropdown-container > div:hover {
+.edition-dropdown-container > option:hover {
   background-color: #E6E6E6;
   cursor: pointer;
 }
-
 .edition-dropdown-us {
   color: red;
 }
-
-.edition-top {
-  display: flex;
-  display: center;
-  margin-top: 12px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
 .fixed-header-right-edition {
-
+  font-size: 13px;
 }
-
 .fixed-header-right-up-arrow {
   font-size: 22px;
   margin-left: 5px;
   display: none;
 }
-
 .fixed-header-right-down-arrow {
   font-size: 35px;
   margin-top: -20px;
 }
-
 .fixed-header-right-search {
   font-size: 20px;
-  margin-top: 9px;
   margin-right: 30px;
   margin-left: 10px;
   opacity: 0.9;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-
 .fixed-header-right-search:hover {
   cursor: pointer;
   opacity: 1
 }
-
 .fixed-header-right-user {
-  margin-top: 5px;
   font-size: 25px;
   opacity: 0.9;
-}
-.fixed-header-right-user:hover {
-  margin-top: 5px;
-  font-size: 25px;
-  opacity: 1;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
   cursor: pointer;
 }
-
+.fixed-header-right-user:hover {
+  cursor: pointer;
+  opacity: 1;
+}
 .fixed-header-right-sections {
   font-size: 20px;
-  margin-top: 8px;
   margin-left: 30px;
   opacity: 0.9;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-
 .fixed-header-right-sections:hover {
   cursor: pointer;
   opacity: 1;
 }
-
 .fixed-header-right-x {
   font-size: 20px;
-  margin-top: 8px;
   margin-left: 30px;
   display: none;
   opacity: 0.9;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 .fixed-header-right-x:hover {
   display: none;
   cursor: pointer;
-  opacity: 1
+  opacity: 1;
 }

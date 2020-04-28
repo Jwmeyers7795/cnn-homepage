@@ -100,7 +100,7 @@
   .wrapper-white, .wrapper-grey, .wrapper-black {
     padding: 0 1%;
   }
-  .abc {
+  /* .hide-white-space {
     display: none;
-  }
+  } */
 }
