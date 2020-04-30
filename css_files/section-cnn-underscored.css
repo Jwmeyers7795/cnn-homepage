@@ -1,3 +1,24 @@
+.divider-6 {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.lines-6 {
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+  width: 81%;
+  margin-left: 17%;
+}
+.text-6 {
+  float: left;
+  font-size: 22px;
+}
 .cnn-underscored-section {
   display: flex;
   justify-content: center;
@@ -21,4 +42,58 @@
   padding: 4px;
   font-size: 31px;
   color: black;
+}
+
+
+@media screen and (max-width: 967px) {
+  .divider-6 {
+    position: relative;
+    top: -172px;
+  }
+  .cnn-underscored-section {
+    position: relative;
+    top: -192px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .divider-6 {
+    position: relative;
+    top: -152px;
+  }
+  .cnn-underscored-section {
+    position: relative;
+    top: -172px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cnn-underscored-left {
+    width: 100%;
+  }
+  .cnn-underscored-section > .sub-headlines {
+    position: relative;
+    top: -72px;
+    width: 100%;
+  }
+  .cnn-underscored-section > .sub-headlines > li {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .divider-6 {
+    position: relative;
+    top: -2062px;
+  }
+  .cnn-underscored-section {
+    position: relative;
+    top: -2080px;
+  }
+  .cnn-underscored-left-image-caption {
+    position: relative;
+    top: -82px;
+  }
+  .cnn-underscored-section > .sub-headlines > li {
+    font-size: 20px;
+  }
 }

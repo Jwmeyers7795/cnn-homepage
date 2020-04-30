@@ -54,3 +54,404 @@
   font-size: 24px;
   /* background-color: #E6E6E6; */
 }
+
+
+@media screen and (max-width: 967px) {
+  .section-three-a {
+    position: relative;
+    top: -112px;
+  }
+  .sports-section {
+    width: 50%;
+    margin: 0;
+    padding-right: 1%;
+  }
+  .opinion-section {
+    width: 50%;
+    margin:  0;
+    padding-left: 1%;
+  }
+  .ad-section {
+    display: none;
+  }
+  .ad-image {
+    width: 80%;
+  }
+  .section-three-b {
+    position: relative;
+    top: -112px;
+  }
+  .combine-ad-section-world {
+    display: block;
+    width: 50%;
+    padding-right: 1%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .combine-ad-section-world > ul > li {
+    text-align: left;
+  }
+  .world-section {
+    width: 50%;
+    padding-left: 1%;
+  }
+  .us-section {
+    display: none;
+  }
+  .style-section {
+    display: none;
+  }
+  .combine-us-style {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: -102px;
+  }
+  .us-header:hover  {
+    background-color: #E6E6E6;
+    color: black;
+  }
+  .style-header:hover  {
+    background-color: #E6E6E6;
+    color: black;
+  }
+  .combine-us-section {
+    width: 50%;
+    padding-right: 1%;
+  }
+  .combine-style-section {
+    width: 50%;
+    padding-left: 1%;
+  }
+  .section-three-c {
+    position: relative;
+    top: -112px;
+  }
+  .entertainment-section {
+    width: 50%;
+    margin: 0;
+    padding-right: 1%;
+  }
+  .tech-section {
+    width: 50%;
+    margin: 0;
+    padding-left: 1%;
+  }
+  .politics-section {
+    display: none;
+  }
+  .combine-politics-science-health-section {
+    display: block;
+    width: 50%;
+    padding-right: 1%;
+  }
+  .politics-header:hover  {
+    background-color: #E6E6E6;
+    color: black;
+  }
+  .section-three-d {
+    position: relative;
+    top: -112px;
+  }
+  .science-health-section {
+    width: 50%;
+    padding-left: 1%;
+  }
+  .travel-section {
+    display: none;
+  }
+  .cnn-podcasts-section {
+    display: none;
+  }
+  .combine-travel-cnn-podcasts-section {
+    position: relative;
+    top: -102px;
+    display: flex;
+    justify-content: center;
+  }
+  .travel-header:hover  {
+    background-color: #E6E6E6;
+    color: black;
+  }
+  .cnn-podcasts-header:hover  {
+    background-color: #E6E6E6;
+    color: black;
+  }
+  .combine-travel-section {
+    width: 50%;
+    padding-right: 1%;
+  }
+  .combine-cnn-podcasts-section {
+    width: 50%;
+    padding-left: 1%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .section-three-a {
+    position: relative;
+    top: -662px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sports-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sports-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .sports-section > ul {
+    position: relative;
+    top: -130px;
+  }
+  .sports-section > ul > li {
+    font-size: 20px;
+  }
+  .opinion-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -120px;
+  }
+  .opinion-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -28px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .opinion-section > ul {
+    position: relative;
+    top: -90px;
+  }
+  .opinion-section > ul > li {
+    font-size: 20px;
+  }
+  .ad-section {
+    position: relative;
+    top: -200px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .ad-section > ul > li {
+    font-size: 20px;
+  }
+  .ad-image {
+    width: 70%;
+  }
+  .combine-ad-section-world {
+    display: none;
+  }
+  .section-three-b {
+    position: relative;
+    top: -850px;
+    display: flex;
+    flex-direction: column;
+  }
+  .world-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .world-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .world-section > ul {
+    position: relative;
+    top: -127px;
+  }
+  .world-section > ul > li {
+    font-size: 20px;
+  }
+  .us-section {
+    position: relative;
+    top: -117px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .us-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .us-section > ul {
+    position: relative;
+    top: -127px;
+  }
+  .us-section > ul > li {
+    font-size: 20px;
+  }
+  .style-section {
+    position: relative;
+    top: -232px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .style-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .style-section > ul {
+    position: relative;
+    top: -126px;
+  }
+  .style-section > ul > li {
+    font-size: 20px;
+  }
+  .combine-us-style {
+    display: none;
+  }
+  .section-three-c {
+    position: relative;
+    top: -1210px;
+    display: flex;
+    flex-direction: column;
+  }
+  .entertainment-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .entertainment-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .entertainment-section > ul {
+    position: relative;
+    top: -126px;
+  }
+  .entertainment-section > ul > li {
+    font-size: 22px;
+  }
+  .tech-section {
+    position: relative;
+    top: -121px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .tech-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .tech-section > ul {
+    position: relative;
+    top: -126px;
+  }
+  .tech-section > ul > li {
+    font-size: 22px;
+  }
+  .politics-section {
+    position: relative;
+    top: -240px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .politics-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -65px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .politics-section > ul {
+    position: relative;
+    top: -158px;
+  }
+  .politics-section > ul > li {
+    font-size: 22px;
+  }
+  .combine-politics-science-health-section {
+    display: none;
+  }
+  .section-three-d {
+    position: relative;
+    top: -1600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .science-health-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .science-health-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .science-health-section > ul {
+    position: relative;
+    top: -120px;
+  }
+  .science-health-section > ul > li {
+    font-size: 22px;
+  }
+  .travel-section {
+    position: relative;
+    top: -110px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .travel-title-caption {
+    font-size: 32px;
+    position: relative;
+    top: -47px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .travel-section > ul {
+    position: relative;
+    top: -120px;
+  }
+  .travel-section > ul > li {
+    font-size: 22px;
+  }
+  .cnn-podcasts-section {
+    position: relative;
+    top: -220px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .cnn-podcasts-title-caption {
+    font-size: 22px;
+  }
+  .cnn-podcasts-section > ul > li {
+    font-size: 22px;
+  }
+  .combine-travel-cnn-podcasts-section {
+    display: none;
+  }
+}

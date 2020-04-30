@@ -1,4 +1,4 @@
-.wrapper-black {
+.index-and-footers-section {
   width: 100%;
   background-color: #0C0C0C;
   position: relative;
@@ -90,20 +90,7 @@
   opacity: 1;
   color: inherit;
 }
-.social-media-links-section-cnn-logo {
-  background-color: #CE3B28;
-  width: 40px;
-  height: 40px;
-  padding-left: 3px;
-  padding-top: 11px;
-  margin-top: -5px;
-  font-size: 15px;
-  font-weight: 900;
-  /* margin-right: 10px; */
-}
-
-
-/* .logo-cnn {
+.logo-cnn-footer {
   margin-right: 10px;
   background-color: #CE3B28;
   width: 40px;
@@ -112,25 +99,23 @@
   padding-top: 11px;
   font-size: 15px;
   font-weight: 900;
-} */
-
-
-.social-media-links-section-cnn-logo:hover {
+}
+.logo-cnn-footer:hover {
   color: inherit;
+}
+.logo-cnn-footer-hide {
+  background-color: #0C0C0C;
+  color: #0C0C0C;
+}
+.logo-cnn-footer-hide:hover {
+  background-color: #0C0C0C;
+  color: #0C0C0C;
+  cursor: default;
 }
 .index-US div:not(:first-child), .index-US div:not(:first-child), .index-world div:not(:first-child), .index-politics div:not(:first-child), .index-business div:not(:first-child), .index-opinion div:not(:first-child),
  .index-health div:not(:first-child), .index-entertainment div:not(:first-child), .index-tech div:not(:first-child), .index-style div:not(:first-child), .index-travel div:not(:first-child),
   .index-sports div:not(:first-child), .index-videos div:not(:first-child), .index-coupons div:not(:first-child), .index-more div:not(:first-child) {
   margin-bottom: 8px;
-}
-.social-media-links-section-cnn-logo-hide {
-  background-color: #0C0C0C;
-  color: #0C0C0C;
-}
-.social-media-links-section-cnn-logo-hide:hover {
-  background-color: #0C0C0C;
-  color: #0C0C0C;
-  cursor: default;
 }
 .footer-section-a {
   display: flex;
@@ -173,4 +158,117 @@
 }
 .hide-white-space {
   display: none;
+}
+
+@media screen and (max-width: 1110px) {
+  .index-and-footers-section {
+    padding: 0 1%;
+  }
+  .index > div > div {
+    display: none;
+  }
+  .index {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #4D4D4D;
+  }
+  .index > div {
+    margin-right: 0;
+  }
+  .index > div > a > div {
+    font-weight: 100;
+    margin-bottom: 5px;
+  }
+  .search-form {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .social-media-links-section {
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 0px;
+  }
+  .social-media-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .follow-cnn {
+    padding: 0;
+    border-right: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .logo-cnn-footer {
+    margin: 0 auto;
+  }
+  .logo-cnn-footer-hide {
+    color: white;
+    background-color: #CE3B28;
+    padding: 10px 5px 10px 5px;
+    margin: 0 auto;
+  }
+  .fa-facebook, .fa-instagram {
+    margin: 0;
+  }
+  .fa-twitter {
+    margin: 0 15px 0 15px;
+  }
+  .footer-section-a {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #E6E6E6;
+  }
+  .footer-section-b {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px 8px 5px;
+    margin: 0 auto;
+  }
+  .footer-section-b > a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .footer-section-c {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-2-b {
+    margin: 0
+  }
+}
+@media screen and (max-width: 967px) {
+  .index-and-footers-section {
+    position: relative;
+    margin-top: -255px;
+  }
+  .index-and-footers-section-967 {
+    position: relative;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+   .index-and-footers-section {
+    position: relative;
+    top: -1885px;
+  }
+  .hide-white-space {
+    display: block;
+    position: relative;
+    margin-top: -1885px;
+    background-color: #0C0C0C;
+    text-align: center;
+    cursor: default;
+  }
 }

@@ -1,3 +1,40 @@
+.wrapper-white {
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 0;
+}
+.combine-center-right {
+  display: flex;
+  justify-content: center;
+  width: 56%;
+}
+.combine-two-left-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.combine-two-right-news-buzz {
+  width: 33.33%;
+}
+.news-buzz-combine {
+  display: none;
+}
+.combine-ad-section-world {
+  display: none;
+}
+.combine-politics-science-health-section {
+  display: none;
+}
+.combine-us-style {
+  display: none;
+}
+.combine-travel-cnn-podcasts-section {
+  display: none;
+}
+
+
 .header-two-container {
   font-size: 15px;
   padding-bottom: 20px;
@@ -67,8 +104,6 @@
 .one-left-picture {
   margin-bottom: 5px;
 }
-
-
 .one-center {
   width: 50%;
   padding: 0 10px;
@@ -81,8 +116,6 @@
 .one-center-picture {
   margin-bottom: 5px;
 }
-
-
 .one-right {
   width: 50%;
   padding: 0 10px;
@@ -104,7 +137,6 @@
   overflow-x: hidden;
   width: 1110px;
   position: relative;
-
   z-index: 300;
   background-color: white;
   max-width: 1110px;
@@ -119,4 +151,133 @@
   border-right: 2px solid #DCDCDC;
   font-weight: 400;
   font-size: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper-white {
+    padding: 0 1%;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .header-three-container {
+    position: relative;
+    top: -120px;
+  }
+  .one-left {
+    width: 100%;
+    padding: 0;
+  }
+  .one-left > ul > li {
+    font-size: 22px;
+  }
+  .one-left > ul {
+    position: relative;
+    top: -127px;
+  }
+  .one-left-headline-caption {
+    font-weight: 600;
+    font-size: 33px;
+  }
+  .one-center {
+    padding-left: 0;
+  }
+  .one-right {
+    padding-right: 0;
+  }
+  .combine-center-right {
+    width: 100%;
+    position: relative;
+    top: -122px;
+  }
+  .combine {
+    position: relative;
+    top: -133px;
+    color: white;
+    background: rgba(248, 240, 243, 0.9);
+    padding: 4px;
+    font-size: 31px;
+    color: black;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .one-left > ul > li {
+    font-size: 20px;
+  }
+  .one-left > ul {
+    position: relative;
+    top: -160px;
+  }
+  .combine-center-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .one-center-headline {
+    font-size: 35px;
+  }
+  .combine {
+    position: relative;
+    top: -171px;
+    color: white;
+    background: rgba(248, 240, 243, 0.8);
+    padding: 4px;
+    font-size: 31px;
+    color: black;
+  }
+  .combine-two {
+    width: 100%;
+    position: relative;
+    top: -137px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .one-center {
+    position: relative;
+    top: -40px;
+    width: 100%;
+  }
+  .one-center > ul {
+    position: relative;
+    top: -120px;
+    font-size: 30px;
+  }
+  .one-center > ul > li {
+    font-size: 20px;
+  }
+  .one-right {
+    width: 100%;
+    position: relative;
+    top: -155px;
+    margin: 0;
+    padding: 0;
+  }
+  .one-right-headline {
+    font-size: 35px;
+  }
+  .combine-three {
+    font-size: 35px;
+    width: 100%;
+    position: relative;
+    top: -97px;
+    padding: 4px;
+    background: rgba(248, 240, 243, 0.8);
+  }
+  .one-right > ul {
+    position: relative;
+    top: -80px;
+    font-size: 30px;
+  }
+  .one-right > ul > li {
+    font-size: 20px;
+  }
+  .header-three-container {
+    /* display: none; */
+  }
 }

@@ -27,6 +27,9 @@ body {
 img {
   width: 100%;
 }
+video {
+  width: 100%;
+}
 
 .sub-headlines > li {
   padding: 8px 0;

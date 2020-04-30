@@ -1,3 +1,24 @@
+.divider-2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.lines-2 {
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+  width: 94%;
+  margin-left: 6%;
+}
+.text-2 {
+  float: left;
+  font-size: 22px;
+}
 .video-section {
   display: flex;
   justify-content: center;
@@ -55,4 +76,36 @@
 .video-right-one-a-caption, .video-right-one-b-caption, .video-right-two-a-caption, .video-right-two-b-caption, .video-right-three-a-caption, .video-right-three-b-caption, .video-right-four-a-caption, .video-right-four-b-caption {
   position: relative;
   top: -25px;
+}
+
+@media screen and (max-width: 967px) {
+  .divider-2 {
+    position: relative;
+    top: -92px;
+  }
+  .video-section {
+    position: relative;
+    top: -112px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .divider-2 {
+    position: relative;
+    top: -1822px;
+  }
+  .video-section {
+    position: relative;
+    top: -1822px;
+    display: flex;
+    flex-direction: column;
+  }
+  .video-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .video-right {
+    width: 100%;
+    margin: 0 auto;
+  }
 }

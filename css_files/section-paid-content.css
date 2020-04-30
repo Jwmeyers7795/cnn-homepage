@@ -1,3 +1,24 @@
+.divider-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.lines-3 {
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+  width: 87%;
+  margin-left: 13%;
+}
+.text-3 {
+  float: left;
+  font-size: 22px;
+}
 .paid-content-section {
   display: flex;
   justify-content: center;
@@ -22,4 +43,46 @@
 .paid-content-1-company, .paid-content-2-company, .paid-content-3-company, .paid-content-4-company {
   font-size: 13px;
   color: grey;
+}
+
+@media screen and (max-width: 967px) {
+  .divider-3 {
+    position: relative;
+    top: -122px;
+  }
+  .paid-content-section {
+    position: relative;
+    top: -142px;
+  }
+  .paid-content-section > a:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .divider-3 {
+    position: relative;
+    top: -1832px;
+  }
+  .paid-content-section {
+    position: relative;
+    top: -1852px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .paid-content-section > figure:not(:last-child) {
+    margin-right: 10px;
+  }
+  .paid-content-section > figure {
+    margin: 5px;
+  }
+  .paid-content-section > figure > img {
+    min-width: 110px;
+    min-height: 100px;
+  }
+  .paid-content-section > figure > a > figcaption {
+    max-height: 80px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
 }

@@ -1,3 +1,24 @@
+.divider-5 {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: relative;
+  top: 0;
+  z-index: 300;
+  background-color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.lines-5 {
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+  width: 91%;
+  margin-left: 7%;
+}
+.text-5 {
+  float: left;
+  font-size: 22px;
+}
 .photos-section {
   display: flex;
   flex-direction: flex-start;
@@ -35,4 +56,47 @@
 }
 .photos-1-caption, .photos-2-caption, .photos-3-caption, .photos-4-caption {
   font-size: 19px;
+}
+
+@media screen and (max-width: 967px) {
+  .divider-5 {
+    position: relative;
+    top: -172px;
+  }
+  .photos-section {
+    position: relative;
+    top: -172px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .photos-section > figure {
+    width: 35%;
+  }
+  .photos-section > figure:not(:last-child) {
+    margin-right: 30px;
+  }
+  /* .photos-section > div:not(:first-child) {
+    margin-right: 30px;
+  } */
+}
+
+@media screen and (max-width: 650px) {
+  .divider-5 {
+    position: relative;
+    top: -2040px;
+  }
+  .photos-section {
+    position: relative;
+    top: -2050px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .photos-1-caption, .photos-2-caption, .photos-3-caption, .photos-4-caption {
+    font-size: 14px;
+  }
 }
