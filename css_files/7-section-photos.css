@@ -1,6 +1,5 @@
 .divider-5 {
-  padding-top: 25px;
-  padding-bottom: 30px;
+  padding: 25px 0 10px 0;
   position: relative;
   top: 0;
   z-index: 300;
@@ -11,13 +10,14 @@
 .lines-5 {
   position: relative;
   top: 10px;
-  margin-bottom: 20px;
   width: 91%;
+  margin-bottom: 20px;
   margin-left: 7%;
 }
 .text-5 {
   float: left;
   font-size: 22px;
+  font-weight: 100;
 }
 .photos-section {
   display: flex;
@@ -28,11 +28,11 @@
   background-color: white;
   max-width: 1110px;
   margin: 0 auto;
+  font-weight: 100;
 }
 .photos-section > figure {
   width: 100%;
-  margin-right: 30px;
-  margin-bottom: 10px;
+  margin: 0 30px 10px 0;
 }
 /* .photos-section > div > a:first-child {
   max-width: 285px;
@@ -57,7 +57,6 @@
 .photos-1-caption, .photos-2-caption, .photos-3-caption, .photos-4-caption {
   font-size: 19px;
 }
-
 @media screen and (max-width: 967px) {
   .divider-5 {
     position: relative;
@@ -81,15 +80,14 @@
     margin-right: 30px;
   } */
 }
-
 @media screen and (max-width: 650px) {
   .divider-5 {
     position: relative;
-    top: -2040px;
+    top: -2070px;
   }
   .photos-section {
     position: relative;
-    top: -2050px;
+    top: -2070px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

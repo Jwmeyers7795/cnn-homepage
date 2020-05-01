@@ -30,7 +30,8 @@
 }
 .sports-title-caption, .opinion-title-caption, .world-title-caption, .us-title-caption, .style-title-caption, .entertainment-title-caption, .tech-title-caption, .politics-title-caption, .science-health-title-caption, .travel-title-caption, .cnn-podcasts-title-caption, .represented-title-caption, .risk-takers-title-caption {
   font-size: 20px;
-  margin: 5px 0 5px 0;
+  margin: 5px 0;
+  font-weight: 100;
 }
 .sports-section, .ad-section, .world-section, .style-section, .entertainment-section, .politics-section, .science-health-section {
   width: 33.33%;
@@ -54,12 +55,22 @@
   font-size: 24px;
   /* background-color: #E6E6E6; */
 }
-
-
+.combine-ad-section-world {
+  display: none;
+}
+.combine-politics-science-health-section {
+  display: none;
+}
+.combine-us-style {
+  display: none;
+}
+.combine-travel-cnn-podcasts-section {
+  display: none;
+}
 @media screen and (max-width: 967px) {
   .section-three-a {
     position: relative;
-    top: -112px;
+    top: -132px;
   }
   .sports-section {
     width: 50%;
@@ -79,7 +90,7 @@
   }
   .section-three-b {
     position: relative;
-    top: -112px;
+    top: -132px;
   }
   .combine-ad-section-world {
     display: block;
@@ -106,7 +117,7 @@
     justify-content: center;
     width: 100%;
     position: relative;
-    top: -102px;
+    top: -122px;
   }
   .us-header:hover  {
     background-color: #E6E6E6;
@@ -126,7 +137,7 @@
   }
   .section-three-c {
     position: relative;
-    top: -112px;
+    top: -132px;
   }
   .entertainment-section {
     width: 50%;
@@ -152,7 +163,7 @@
   }
   .section-three-d {
     position: relative;
-    top: -112px;
+    top: -132px;
   }
   .science-health-section {
     width: 50%;
@@ -166,7 +177,7 @@
   }
   .combine-travel-cnn-podcasts-section {
     position: relative;
-    top: -102px;
+    top: -122px;
     display: flex;
     justify-content: center;
   }
@@ -187,12 +198,10 @@
     padding-left: 1%;
   }
 }
-
-
 @media screen and (max-width: 650px) {
   .section-three-a {
     position: relative;
-    top: -662px;
+    top: -702px;
     display: flex;
     flex-direction: column;
   }
@@ -255,7 +264,7 @@
   }
   .section-three-b {
     position: relative;
-    top: -850px;
+    top: -890px;
     display: flex;
     flex-direction: column;
   }
@@ -325,7 +334,7 @@
   }
   .section-three-c {
     position: relative;
-    top: -1210px;
+    top: -1250px;
     display: flex;
     flex-direction: column;
   }
@@ -394,7 +403,7 @@
   }
   .section-three-d {
     position: relative;
-    top: -1600px;
+    top: -1650px;
     display: flex;
     flex-direction: column;
   }

@@ -19,6 +19,7 @@
 .fixed-header {
   margin-top: 300px;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   z-index: 500;
   width: 100%;
@@ -52,14 +53,13 @@
   background-color: #CE3B28;
   width: 40px;
   height: 40px;
-  padding-left: 3px;
-  padding-top: 11px;
+  padding: 11px 0 0 3px;
   font-size: 15px;
   font-weight: 900;
 }
 .left-header {
   margin-right: 10px;
-  padding: 12px 0 12px 0;
+  padding: 12px 0;
 }
 .fixed-header-right {
   display: flex;
@@ -80,22 +80,19 @@
 .live-tv-red-dot {
   height: 5px;
   width: 5px;
-  background-color: red;
+  background-color: #CE3B28;
   border-radius: 50%;
   color: red;
-  margin-top: 18px;
-  margin-right: 10px;
+  margin: 18px 10px 0 0;
 }
 .live-tv-words {
   margin-right: 10px;
-  padding: 12px 0 12px 0;
+  padding: 12px 0;
 }
 .edition-part {
   display: flex;
   display: center;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 10px 10px 0 10px;
   opacity: 0.9;
   background-color: black;
   color: white;
@@ -114,22 +111,22 @@
   right: 240px;
   background-color: white;
   color: black;
-  padding: 0 0 15px 0;
+  padding-bottom: 15px;
   border-radius: 4px;
   z-index: 600;
 }
-.edition-dropdown-container > option {
+.edition-dropdown-container > div {
   margin-top: 10px;
   font-size: 12px;
   padding: 5px 25px 3px 20px;
   font-weight: 500;
 }
-.edition-dropdown-container > option:hover {
+.edition-dropdown-container > div:hover {
   background-color: #E6E6E6;
   cursor: pointer;
 }
 .edition-dropdown-us {
-  color: red;
+  color: #CE3B28;
 }
 .fixed-header-right-edition {
   font-size: 13px;
@@ -145,8 +142,7 @@
 }
 .fixed-header-right-search {
   font-size: 20px;
-  margin-right: 30px;
-  margin-left: 10px;
+  margin: 0 30px 0 10px;
   opacity: 0.9;
   background-color: black;
   color: white;

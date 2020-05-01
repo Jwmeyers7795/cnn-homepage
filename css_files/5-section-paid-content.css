@@ -1,6 +1,5 @@
 .divider-3 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0 10px 0;
   position: relative;
   top: 0;
   z-index: 300;
@@ -11,13 +10,14 @@
 .lines-3 {
   position: relative;
   top: 10px;
-  margin-bottom: 20px;
   width: 87%;
+  margin-bottom: 20px;
   margin-left: 13%;
 }
 .text-3 {
   float: left;
   font-size: 22px;
+  font-weight: 100;
 }
 .paid-content-section {
   display: flex;
@@ -29,6 +29,7 @@
   background-color: white;
   max-width: 1110px;
   margin: 0 auto;
+  font-weight: 100;
 }
 .paid-content-section > figure {
   width: 100%;
@@ -44,29 +45,27 @@
   font-size: 13px;
   color: grey;
 }
-
 @media screen and (max-width: 967px) {
   .divider-3 {
     position: relative;
-    top: -122px;
+    top: -132px;
   }
   .paid-content-section {
     position: relative;
-    top: -142px;
+    top: -132px;
   }
   .paid-content-section > a:not(:last-child) {
     margin-right: 20px;
   }
 }
-
 @media screen and (max-width: 650px) {
   .divider-3 {
     position: relative;
-    top: -1832px;
+    top: -1872px;
   }
   .paid-content-section {
     position: relative;
-    top: -1852px;
+    top: -1882px;
     width: 100%;
     margin: 0 auto;
   }

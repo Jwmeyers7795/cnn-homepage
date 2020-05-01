@@ -4,6 +4,7 @@
   position: relative;
   top: 0;
   z-index: 300;
+  padding: 0 1%;
 }
 .search-index-section {
   max-width: 88%;
@@ -16,8 +17,7 @@
   border-top: 1px solid #4D4D4D;
 }
 .search-form {
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding: 40px 0 30px 0;
 }
 .search-bar {
   width: 100%;
@@ -42,8 +42,7 @@
   color: #E6E6E6;
 }
 .index > div {
-  margin-right: 70px;
-  margin-bottom: 20px;
+  margin: 0 70px 20px 0;
 }
 .index > div > a > div {
   font-size: 18px;
@@ -52,7 +51,7 @@
 }
 .social-media-links-section {
   border-bottom: 1px solid #4D4D4D;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin: 0 auto;
   margin-top: 5px;
   color: #E6E6E6;
@@ -79,11 +78,10 @@
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 400;
-  margin-top: 5px;
-  margin-right: 20px;
+  margin: 5px 20px 0 0;
 }
 .fa-facebook, .fa-twitter, .fa-instagram {
-  margin: 0 15px 0 15px;
+  margin: 0 15px;
   opacity: 0.9;
 }
 .fa-facebook:hover,  .fa-twitter:hover, .fa-instagram:hover {
@@ -95,8 +93,7 @@
   background-color: #CE3B28;
   width: 40px;
   height: 40px;
-  padding-left: 3px;
-  padding-top: 11px;
+  padding: 11px 0 0 3px;
   font-size: 15px;
   font-weight: 900;
 }
@@ -116,6 +113,7 @@
  .index-health div:not(:first-child), .index-entertainment div:not(:first-child), .index-tech div:not(:first-child), .index-style div:not(:first-child), .index-travel div:not(:first-child),
   .index-sports div:not(:first-child), .index-videos div:not(:first-child), .index-coupons div:not(:first-child), .index-more div:not(:first-child) {
   margin-bottom: 8px;
+  font-weight: 100;
 }
 .footer-section-a {
   display: flex;
@@ -123,7 +121,7 @@
   flex-wrap: wrap;
   font-size: 12px;
   color: #E6E6E6;
-  padding: 40px 0 40px 0;
+  padding: 40px 0;
   line-height: 25px;
   margin: 0 auto;
 }
@@ -161,9 +159,6 @@
 }
 
 @media screen and (max-width: 1110px) {
-  .index-and-footers-section {
-    padding: 0 1%;
-  }
   .index > div > div {
     display: none;
   }
@@ -184,8 +179,7 @@
   .search-form {
     max-width: 720px;
     margin: 0 auto;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 0 30px;
   }
   .social-media-links-section {
     border-bottom: none;
@@ -203,10 +197,7 @@
   .follow-cnn {
     padding: 0;
     border-right: none;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    padding-right: 0;
-    margin-right: 0;
+    margin-top: 25px 0 15px 0;
   }
   .logo-cnn-footer {
     margin: 0 auto;
@@ -214,14 +205,14 @@
   .logo-cnn-footer-hide {
     color: white;
     background-color: #CE3B28;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 5px;
     margin: 0 auto;
   }
   .fa-facebook, .fa-instagram {
     margin: 0;
   }
   .fa-twitter {
-    margin: 0 15px 0 15px;
+    margin: 0 15px;
   }
   .footer-section-a {
     display: flex;
@@ -237,8 +228,7 @@
     margin: 0 auto;
   }
   .footer-section-b > a {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 10px;
   }
   .footer-section-c {
     display: flex;
@@ -270,5 +260,9 @@
     background-color: #0C0C0C;
     text-align: center;
     cursor: default;
+  }
+  .index-and-footers-section-650 {
+    position: relative;
+    top: 255px;
   }
 }

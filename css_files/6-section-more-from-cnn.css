@@ -1,6 +1,5 @@
 .divider-4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 10px 0;
   position: relative;
   top: 0;
   z-index: 300;
@@ -11,13 +10,14 @@
 .lines-4 {
   position: relative;
   top: 10px;
-  margin-bottom: 20px;
   width: 85%;
+  margin-bottom: 20px;
   margin-left: 15%;
 }
 .text-4 {
   float: left;
   font-size: 22px;
+  font-weight: 100;
 }
 .more-from-cnn-section {
   display: flex;
@@ -28,6 +28,7 @@
   background-color: white;
   max-width: 1110px;
   margin: 0 auto;
+  font-weight: 100;
 }
 .more-from-cnn-section > section {
   margin-right: 20px;
@@ -58,11 +59,11 @@
 @media screen and (max-width: 967px) {
   .divider-4 {
     position: relative;
-    top: -152px;
+    top: -142px;
   }
   .more-from-cnn-section {
     position: relative;
-    top: -172px;
+    top: -142px;
   }
   .more-from-cnn-section > div {
     width: 50%;
@@ -103,7 +104,7 @@
   }
   .risk-takers {
     position: relative;
-    top: -93px;
+    top: -103px;
   }
   .risk-takers-title-caption {
     font-size: 32px;
